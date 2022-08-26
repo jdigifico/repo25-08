@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ 
+ .color-fondo{
+     background-color: rgb(145, 135, 135)
+  }
+  
+ .container-logo{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+ }
+ 
+ 
+ .imagen-logo{
+     border-radius: 50%;
+     width: 300px;
+     height: 300px;
+     border: 4px outset;
+     border-color: darkgoldenrod;
+     margin-top:100px;
+    
+  }
+  
+ 
+  .contiene-imagen1{
+     display: flex;
+     justify-content: center;
+     justify-items: center;
+     margin-top: 20px;
+  }
+  
+  .imagenPortada1{
+     width: 1200px;
+     border: 4px outset;
+     border-color: darkgoldenrod;
+     margin: 10px;
+     margin-bottom:35px;
+  }
+ 
+  .contiene-imagen2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .imagenPortada2{
+    width: 1200px;
+    border: 4px outset;
+    border-color: darkgoldenrod;
+    margin-bottom: 50px;
+  }
+  
+  .container-marketing{
+    margin-top: 35px;
+    margin-left: 80px ;
+    width: 1200px;
+  }
+ 
+  
+  .carrusel-container{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 800px;
+    justify-items: center;
+    border: 4px outset;
+    border-color: darkgoldenrod;
+    justify-content:center;
+ }
+  
+  
+  .logocopa{
+    border-radius: 50%;
+    border: 4px outset;
+    border-color: darkgoldenrod;
+  }
+  
+  h2{
+    color: rgb(109, 81, 9);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .contiene-textoYvideo{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+  }
+  
+  .estiloTitulo{
+     color: rgb(70, 51, 4);
+     font-size: 37px;
+  }
+  
+ 
+ 
+  
+  .carrusel{
+     display: flex;
+     justify-content: center;
+     justify-items: center;
+  }
+  
+  .pie{
+     margin-top: 50px;
+  }
+  
+  footer div p{
+     text-align: right;
+     font-family: monospace;
+  }
+  
+  
+  .stiloGaleria:hover{
+     background-color: rgb(94, 2, 2);
+  }
+  
+  .tituloGaleria{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .stiloGaleria{
+     width: 450px;
+     font-size: 50px;
+     color: rgb(150, 111, 12);
+     background-color: blanchedalmond;
+     border: 4px outset;
+     border-color: darkgoldenrod;
+     padding-left: 20px;
+     padding-right: 5px;
+  }
+  
+  
+  .galeriaGrid{
+     display: grid;
+     grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+     grid-gap: 10px;
+     margin-right: 5px;
+     margin-top: 20px;
+  }
+  
+  .imgGrid{
+     width: 100%;
+     height: 300px;
+     object-fit: cover;
+     border: 3px outset;
+     border-color: darkgoldenrod;
+  }
+ 
